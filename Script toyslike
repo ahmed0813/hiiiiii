@@ -1,0 +1,13 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Cars Trading Script By armin#8793", "Sentinel")
+ 
+--Main
+local Main = Window:NewTab("Home")
+local MainSection = Main:NewSection("Dupe script")
+ 
+MainSection:NewButton("pop it trading", "ButtonInfo", function()
+-- Your money will be negative, but you can dupe any item into an alt account
+
+getgenv().id = 40082 -- Item ID
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DontForgontPassword/Script/main/Script.lua"))()
